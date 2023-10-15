@@ -1,24 +1,25 @@
-# Website deployment using Terraform and AWS 
+# Website deployment using Terraform and AWS 💻
 
 ### Make use of variables, provisioners, and instance configuration to push, execute, and deploy a simple site on an AWS EC2 instance using Terraform 
 
 # Steps to follow 📈
 
-### 1. Create a new user using IAM and give "AdministratorAccess" permission 
+### 1. Create a new user using IAM and give "AdministratorAccess" permission 👷
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/58c3d1aa-3c22-42a4-9a4a-88e5756a445b)
 
-### 2. Create a new Access Key for this user
+### 2. Create a new Access Key for this user 🔑
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/a08f3d7f-4e2b-49b8-9960-541ce64db927)
 
-### 3. Configure this key on the CLI using "aws configure"
+### 3. Configure this key on the CLI using "aws configure" 🛠️
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/164046c9-ab7b-4c6c-af1c-209d86599cb7)
 
-### 4. Create a public and private key pair using `ssh-keygen` to push it to the AWS account
+### 4. Create a public and private key pair using `ssh-keygen` to push it to the AWS account 🔐
+This command will create a public and a private key locally which will be pushed to the AWS console. These key will be used to access the EC2 instance
 
-## Now the working directory contains...
+## Now the working directory contains... 
 
 1. `instance.tf` file for the instance configuration
 2. `vars.tf` file for all the variables
@@ -28,9 +29,9 @@
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/0e1d1df2-1eb6-4a84-a974-62405ff480c0)
 
-### All the tf files are present in the directory. Relevant comments are added to explain each file
+### All the tf files are present in the directory. Relevant comments are added to explain each file 📁
 
-## Terraform commands
+## Terraform commands 🛡️
 
 ### `terraform init` 
 
@@ -72,11 +73,11 @@ The `terraform apply` command is a powerful command, but it is important to use 
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/46005a2e-390a-4def-a84e-9195e8eeab56)
 
-### Allow port 80 for HTTP in the inbound rules of the security group that houses the EC2 instance
+### Allow port 80 for HTTP in the inbound rules of the security group that houses the EC2 instance 🌐
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/77fb1d16-04e6-44f6-8297-d265a92ea4f5)
 
-### Website hosted and visible on the public IP address of the instance
+### Website hosted and visible on the public IP address of the instance 🎉
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/583fb52a-a2c6-4a1d-8e36-67017a221f86)
 
