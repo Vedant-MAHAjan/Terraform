@@ -81,6 +81,13 @@ The `terraform apply` command is a powerful command, but it is important to use 
 
 ![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/583fb52a-a2c6-4a1d-8e36-67017a221f86)
 
+### Use `terraform destroy` to get rid of all the infrastructure created 💣
+
+![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/a6d49f1e-002e-4541-b4e1-3e9727643c0c)
+
+![image](https://github.com/Vedant-MAHAjan/Terraform/assets/88843623/63a21747-fbaa-45d6-802f-734621012c27)
+
+## Terraform is like a magic wand but for infrastructure. Just wave it and your infrastructure will appear, like magic! 🎩
 
 
 
